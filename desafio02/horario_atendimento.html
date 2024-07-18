@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica XYZ</title>
+    <link rel="shortcut icon" href="icone_clinica.png" type="image/x-png">
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table {
+            border: dashed 1px black;
+            box-shadow: 37px 29px 8px -16px rgba(0,0,0,0.58);
+            -webkit-box-shadow: 37px 29px 8px -16px rgba(0,0,0,0.58);
+            -moz-box-shadow: 37px 29px 8px -16px rgba(0,0,0,0.58);
+        }
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td{
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: #f1f1f1;
+        }
+        table tbody tr:hover td{
+            background-color: #c6eaf7;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+                <li><a href="#">Horario de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="horarioAtendimento.jpg" alt="" width="600">
+            </div>
+    
+            <div class="content">
+                <header>
+                    <h1>Clínica Médica XYZ</h1>
+                </header>
+            
+                <div class="container">
+                    <table cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Serviços</th>
+                                <th>Segunda a Sexta</th>
+                                <th>Sábados</th>
+                                <th>Feriados</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Clínica geral</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Psicologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatria</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Oftalmologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+    
+            <footer class="footer">
+                <p>
+                    <font size="2" color="#222222">
+                        &copy; 2024 Clínica Médica XYZ. Todos os direitos reservados.<br>
+                        <font size="1">Rua dos Médicos, 123 - Cidade Nova, São Paulo - SP, CEP: 01000-000</font><br>
+                        <font size="1">Telefone: (11) 1234-5678 | Email: <a href="mailto:contato@clinicamedica.com.br">contato@clinicamedica.com.br</a></font>
+                    </font>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
